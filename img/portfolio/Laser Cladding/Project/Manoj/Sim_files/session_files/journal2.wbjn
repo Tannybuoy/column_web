@@ -1,0 +1,44 @@
+﻿# encoding: utf-8
+# Release 18.1
+SetScriptVersion(Version="18.1.463")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/2saks/Desktop/Manoj/CAD-2.STEP")
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1.Edit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.CreateMaterial(Name="H13")
+matlProp1 = matl1.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp2 = matl1.CreateProperty(
+    Name="Thermal Conductivity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp3 = matl1.CreateProperty(
+    Name="Specific Heat",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp4 = matl1.CreateProperty(
+    Name="Enthalpy",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp1.SetData(
+    Index=-1,
+    Variables=["Density"],
+    Values=[["7448 [kg m^-3]"]])
+matlProp2.SetData(
+    Index=-1,
+    Variables=["Thermal Conductivity"],
+    Values=[["26.4 [W m^-1 C^-1]"]])
+matlProp3.SetData(
+    Index=-1,
+    Variables=["Specific Heat"],
+    Values=[["4 [J kg^-1 C^-1]"]])
+matlProp3.SetData(
+    Variables=["Specific Heat"],
+    Values=[["490 [J kg^-1 C^-1]"]])
+matlProp4.Delete()
+modelComponent1.Refresh()
+Save(Overwrite=True)

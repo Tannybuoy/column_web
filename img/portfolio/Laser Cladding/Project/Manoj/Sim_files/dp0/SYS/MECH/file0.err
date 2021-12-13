@@ -1,0 +1,44 @@
+/COM,ANSYS RELEASE Release 18.1      BUILD 18.1      UP20170403       09:55:22
+
+ *** WARNING ***                         CP =       2.922   TIME= 09:55:24
+ Using 1 iteration per substep may result in unconverged solutions for   
+ nonlinear analysis and the program may not indicate divergence in this  
+ case.  Check your results.                                              
+
+ *** WARNING ***                         CP =       2.922   TIME= 09:55:24
+ Temperature-dependent properties have not been specified.  The          
+ THOPT,QUASI option does not perform equilibrium iterations.  Small      
+ time steps may be required to obtain accurate results.                  
+
+ *** WARNING ***                         CP =       3.172   TIME= 09:55:25
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       3.781   TIME= 09:55:25
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =     140.188   TIME= 09:56:58
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =     336.531   TIME= 09:59:24
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =     544.469   TIME= 10:01:48
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =     770.500   TIME= 10:05:33
+ During this session the elapsed time exceeds the CPU time by 33%.       
+ Often this indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or it indicates a particularly    
+ slow hard drive configuration.  This simulation can be expected to run  
+ faster on identical hardware if additional RAM or a faster hard drive   
+ configuration is made available.  For more details, please see the      
+ ANSYS Performance Guide which is part of the ANSYS Help system.         

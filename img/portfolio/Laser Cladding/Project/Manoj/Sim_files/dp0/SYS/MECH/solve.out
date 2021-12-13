@@ -1,0 +1,2516 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS Release 18.1     LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 2017 SAS IP, Inc.  All rights reserved.           *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2008 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ Release 18.1
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products Release 18.1   
+ ANSYS Mechanical Products Release 18.1  
+ ANSYS Autodyn Release 18.1  
+ ANSYS LS-DYNA Release 18.1  
+ ANSYS AIM Release 18.1  
+ ANSYS CFX (includes ANSYS CFD-Post) Release 18.1
+ ANSYS Fluent (includes ANSYS CFD-Post) Release 18.1 
+ ANSYS TurboGrid Release 18.1
+ ANSYS FENSAP-ICE Release 18.1   
+ ANSYS Polyflow (includes ANSYS CFD-Post) Release 18.1   
+ ANSYS CFD-Post only Release 18.1
+ ANSYS Forte Release 18.1
+ ANSYS Chemkin Release 18.1  
+ ANSYS ICEM CFD Release 18.1 
+ ANSYS Aqwa Release 18.1 
+ ANSYS Icepak (includes ANSYS CFD-Post) Release 18.1 
+ AutoCAD Release 18.1
+ ACIS Release 18.1   
+ Catia, Version 4 Release 18.1   
+ Catia, Version 6 Release 18.1   
+ Creo Elements/Direct Modeling Release 18.1  
+ Inventor Release 18.1   
+ JTOpen Release 18.1 
+ NX Release 18.1 
+ Parasolid Release 18.1  
+ Creo Parametric Release 18.1
+ Solid Edge Release 18.1 
+ SolidWorks Release 18.1 
+ ANSYS, Inc. License Manager Release 18.1
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  INPUT FILE NAME              = C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= Release 18.1         BUILD= 18.1      UP20170403   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  09:55:23  NOV 09, 2018 CP=      0.172
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.375   TIME= 09:55:23
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  9.92305556    
+
+ TITLE= 
+ Sim--Transient Thermal (A5)                                                   
+
+  ACT Extensions:
+      MechanicalDropTest, 2.0
+      f0fd899f-9d88-4f46-8cf1-36bf5c218d65, wbex
+  
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\2saks\Desktop\Manoj\Sim_files\dp0\SYS\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\2saks\Desktop\Manoj\Sim_files\user_files\
+ --- Data in consistent MKS units. See Solving Units in the help system for more
+
+ MKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH        (l)  = METER (M)
+  MASS          (M)  = KILOGRAM (KG)
+  TIME          (t)  = SECOND (SEC)
+  TEMPERATURE   (T)  = CELSIUS (C)
+  TOFFSET            = 273.0
+  CHARGE        (Q)  = COULOMB
+  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
+  HEAT               = JOULE (N-M)
+
+  PRESSURE           = PASCAL (NEWTON/M**2)
+  ENERGY        (W)  = JOULE (N-M)
+  POWER         (P)  = WATT (N-M/SEC)
+  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
+  CAPACITANCE   (C)  = FARAD
+  INDUCTANCE    (L)  = HENRY
+  MAGNETIC FLUX      = WEBER
+  RESISTANCE    (R)  = OHM
+  ELECTRIC POTENTIAL = VOLT
+
+ INPUT  UNITS ARE ALSO SET TO MKS 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   09:55:23  NOV 09, 2018 CP=      0.375
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 "CAD-2" ***********
+ *********** Elements for Body 2 "CAD-2" ***********
+ *********** Elements for Body 3 "CAD-2" ***********
+ *********** Elements for Body 4 "CAD-2" ***********
+ *********** Elements for Body 5 "CAD-2" ***********
+ *********** Elements for Body 6 "CAD-2" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Send Materials ***********
+ *********** Create Contact "Contact Region" ***********
+             Real Constant Set For Above Contact Is 8 & 7
+ *********** Create Contact "Contact Region 2" ***********
+             Real Constant Set For Above Contact Is 10 & 9
+ *********** Create Contact "Contact Region 3" ***********
+             Real Constant Set For Above Contact Is 12 & 11
+ *********** Create Contact "Contact Region 4" ***********
+             Real Constant Set For Above Contact Is 14 & 13
+ *********** Create Contact "Contact Region 5" ***********
+             Real Constant Set For Above Contact Is 16 & 15
+ *********** Create Contact "Contact Region 6" ***********
+             Real Constant Set For Above Contact Is 18 & 17
+ *********** Create Contact "Contact Region 7" ***********
+             Real Constant Set For Above Contact Is 20 & 19
+ *********** Create Contact "Contact Region 8" ***********
+             Real Constant Set For Above Contact Is 22 & 21
+ *********** Create Contact "Contact Region 9" ***********
+             Real Constant Set For Above Contact Is 24 & 23
+ *********** Create Contact "Contact Region 10" ***********
+             Real Constant Set For Above Contact Is 26 & 25
+ *********** Create Contact "Contact Region 11" ***********
+             Real Constant Set For Above Contact Is 28 & 27
+ *********** Create "Heat Flow" ***********
+ *********** Create "Heat Flow 2" ***********
+ *********** Create "Heat Flow 3" ***********
+ *********** Create "Heat Flow 4" ***********
+ *********** Create "Convection" ***********
+ ***************** Define Uniform Initial temperature ***************
+
+
+ ***** ROUTINE COMPLETED *****  CP =         2.891
+
+
+ --- Number of total nodes = 238468
+ --- Number of contact elements = 26780
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 52940
+ --- Number of condensed parts = 0
+ --- Number of total elements = 79720
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  9.92333333    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A TRANSIENT ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ USE A MAXIMUM OF     1 EQUILIBRIUM ITERATIONS EACH SUBSTEP
+
+ *** WARNING ***                         CP =       2.922   TIME= 09:55:24
+ Using 1 iteration per substep may result in unconverged solutions for   
+ nonlinear analysis and the program may not indicate divergence in this  
+ case.  Check your results.                                              
+
+ DO NOT USE PREDICTOR METHOD FOR  ALL DEGREES OF FREEDOM
+
+ STEP BOUNDARY CONDITION KEY= 1
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ Use Quasi-Linear Thermal Transient Solution
+   Tolerance for Reform of Thermal Matrix=     0.050
+   ***** Fast Property Table Information *****
+    Number of entries per property=    64
+    Minimum temperature =      0.00
+    Maximum temperature =   1000.00
+  Enable multipass algorithm
+
+ *** WARNING ***                         CP =       2.922   TIME= 09:55:24
+ Temperature-dependent properties have not been specified.  The          
+ THOPT,QUASI option does not perform equilibrium iterations.  Small      
+ time steps may be required to obtain accurate results.                  
+
+ USE INCOMPLETE CHOLESKI CONJUGATE GRADIENT SOLVER
+  TOLERANCE = 0.10000E-07  OPTION = IN-CORE
+
+ NLHIST: ADDED NODAL RESULTS HISTORY FOR:
+       NAME = MAX_TEMP                        
+  ITEM/COMP = TEMPMAX 
+       NODE =         0
+
+ NLHIST: ADDED NODAL RESULTS HISTORY FOR:
+       NAME = MIN_TEMP                        
+  ITEM/COMP = TEMPMIN 
+       NODE =         0
+ ********* Initial Time Increment Check And Fourier Modulus *********
+  Specified Initial Time Increment: 0.05
+  Estimated Increment Needed, le*le/alpha, Body 1: 0.0012424
+  Estimated Increment Needed, le*le/alpha, Body 2: 0.0012424
+  Estimated Increment Needed, le*le/alpha, Body 3: 0.00122402
+  Estimated Increment Needed, le*le/alpha, Body 4: 0.00126568
+  Estimated Increment Needed, le*le/alpha, Body 5: 0.0012424
+  Estimated Increment Needed, le*le/alpha, Body 6: 0.00126568
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 4 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        29 TO         29 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ ACCORDING TO TABLE PARAMETER = _LOADVARI94
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =         96
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO     238468 STEP          1
+
+     238468  NODES (OF     238468  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      79720 STEP          1
+
+      79720  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        33 TO         33 STEP          1
+
+       8348  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+    25698 NODES (OF   238468  DEFINED) SELECTED FROM
+     8348 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUES=_CONVVARI102_LOADVARI102
+
+ NUMBER OF CONV ELEMENT FACE LOADS STORED =       8348
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO     238468 STEP          1
+
+     238468  NODES (OF     238468  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      79720 STEP          1
+
+      79720  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE INITIAL TIME STEP SIZE OF 0.5000000E-01 FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE 0.5000000E-01 AS THE MINIMUM TIME STEP SIZE
+   USE 0.2000000     AS THE MAXIMUM TIME STEP SIZE
+
+ TIME=  1.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ PRINTOUT RESUMED BY /GOP
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       3.172   TIME= 09:55:25
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       3.500   TIME= 09:55:25
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\file0.err ) for    
+ these warning messages.                                                 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   09:55:25  NOV 09, 2018 CP=      3.500
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .TRANSIENT            
+      SOLUTION METHOD. . . . . . . . . . . . . . .QUASI             
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .ICCG               
+      TOLERANCE. . . . . . . . . . . . . . . . . . 1.00000E-08
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       3.781   TIME= 09:55:25
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =       3.969   TIME= 09:55:25
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\file0.err ) for    
+ these warning messages.                                                 
+
+ *** NOTE ***                            CP =       3.969   TIME= 09:55:25
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 7 and contact element type 7 has been set up.  The         
+ companion pair has real constant set ID 8.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14569E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 53296 and target element 54004.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 8 and contact element type 7 has been set up.  The         
+ companion pair has real constant set ID 7.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14661E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 53649 and target element 52941.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 9 and contact element type 9 has been set up.  The         
+ companion pair has real constant set ID 10.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15353E-03
+ Average contact pair depth                   0.14641E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36602E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 55141 and target element 56128.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 10 and contact element type 9 has been set up.  The        
+ companion pair has real constant set ID 9.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 55640 and target element 54744.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 11 and contact element type 11 has been set up.  The       
+ companion pair has real constant set ID 12.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14661E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 56491 and target element 57199.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 12 and contact element type 11 has been set up.  The       
+ companion pair has real constant set ID 11.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14569E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 1.734723476E-18 was detected between contact  
+ element 57112 and target element 56404.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 13 and contact element type 13 has been set up.  The       
+ companion pair has real constant set ID 14.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15423E-03
+ Average contact pair depth                   0.14690E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36726E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 57947 and target element 58840.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 14 and contact element type 13 has been set up.  The       
+ companion pair has real constant set ID 13.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 58338 and target element 57561.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 15 and contact element type 15 has been set up.  The       
+ companion pair has real constant set ID 16.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14569E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 59671 and target element 60402.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 16 and contact element type 15 has been set up.  The       
+ companion pair has real constant set ID 15.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14508E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 60026 and target element 59370.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 17 and contact element type 17 has been set up.  The       
+ companion pair has real constant set ID 18.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15353E-03
+ Average contact pair depth                   0.14641E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36602E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 1.301042607E-18 was detected between contact  
+ element 61536 and target element 62524.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 18 and contact element type 17 has been set up.  The       
+ companion pair has real constant set ID 17.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 62022 and target element 61143.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 19 and contact element type 19 has been set up.  The       
+ companion pair has real constant set ID 20.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15423E-03
+ Average contact pair depth                   0.14690E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36726E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 62930 and target element 63815.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 20 and contact element type 19 has been set up.  The       
+ companion pair has real constant set ID 19.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 63313 and target element 62537.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 21 and contact element type 21 has been set up.  The       
+ companion pair has real constant set ID 22.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15353E-03
+ Average contact pair depth                   0.14661E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36652E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 65092 and target element 65967.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 22 and contact element type 21 has been set up.  The       
+ companion pair has real constant set ID 21.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 65531 and target element 64687.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 23 and contact element type 23 has been set up.  The       
+ companion pair has real constant set ID 24.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15360E-03
+ Average contact pair depth                   0.14619E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36548E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 66367 and target element 67216.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 24 and contact element type 23 has been set up.  The       
+ companion pair has real constant set ID 23.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 66768 and target element 65989.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 25 and contact element type 25 has been set up.  The       
+ companion pair has real constant set ID 26.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 68512 and target element 69321.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 26 and contact element type 25 has been set up.  The       
+ companion pair has real constant set ID 25.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15353E-03
+ Average contact pair depth                   0.14641E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36602E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 68907 and target element 68073.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 27 and contact element type 27 has been set up.  The       
+ companion pair has real constant set ID 28.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15423E-03
+ Average contact pair depth                   0.14690E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36726E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 69727 and target element 70561.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 28 and contact element type 27 has been set up.  The       
+ companion pair has real constant set ID 27.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       5.422   TIME= 09:55:26
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 70107 and target element 69331.                                 
+ ****************************************
+  
+  
+  
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 79720
+  ...Number of nodes:    238468
+  ...Decompose to 2 CPU domains
+  ...Element load balance ratio =     1.018
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      STARTING TIME STEP SIZE. . . . . . . . . . . 0.50000E-01
+      MINIMUM TIME STEP SIZE . . . . . . . . . . . 0.50000E-01
+      MAXIMUM TIME STEP SIZE . . . . . . . . . . . 0.20000    
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E-05
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      FFLU        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 11 and contact element type 11 has been set up.  The       
+ companion pair has real constant set ID 12.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14661E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 56491 and target element 57199.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 12 and contact element type 11 has been set up.  The       
+ companion pair has real constant set ID 11.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14569E-03
+ Average contact pair depth                   0.15625E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.39062E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 1.734723476E-18 was detected between contact  
+ element 57112 and target element 56404.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 13 and contact element type 13 has been set up.  The       
+ companion pair has real constant set ID 14.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15423E-03
+ Average contact pair depth                   0.14690E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36726E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 57947 and target element 58840.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 14 and contact element type 13 has been set up.  The       
+ companion pair has real constant set ID 13.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 58338 and target element 57561.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 19 and contact element type 19 has been set up.  The       
+ companion pair has real constant set ID 20.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15423E-03
+ Average contact pair depth                   0.14690E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36726E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 62930 and target element 63815.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 20 and contact element type 19 has been set up.  The       
+ companion pair has real constant set ID 19.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 63313 and target element 62537.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 23 and contact element type 23 has been set up.  The       
+ companion pair has real constant set ID 24.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15360E-03
+ Average contact pair depth                   0.14619E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36548E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 66367 and target element 67216.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 24 and contact element type 23 has been set up.  The       
+ companion pair has real constant set ID 23.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 66768 and target element 65989.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 25 and contact element type 25 has been set up.  The       
+ companion pair has real constant set ID 26.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.14758E-03
+ Average contact pair depth                   0.15365E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.38411E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 8.67361738E-19 was detected between contact   
+ element 68512 and target element 69321.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 26 and contact element type 25 has been set up.  The       
+ companion pair has real constant set ID 25.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Pure thermal contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Contact detection at: Gauss integration point
+ Average contact surface length               0.15353E-03
+ Average contact pair depth                   0.14641E-03
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.36602E-04
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.59100E+08
+ Heat radiation is excluded.
+
+ *** NOTE ***                            CP =       7.750   TIME= 09:55:28
+ Max.  Initial penetration 4.33680869E-19 was detected between contact   
+ element 68907 and target element 68073.                                 
+ ****************************************
+  
+
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          11
+
+ *** NOTE ***                            CP =      10.688   TIME= 09:55:31
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          12
+ Max.  Penetration of 0 has been detected between contact element 56845  
+ and target element 56137.                                               
+  
+ Max.  Geometrical gap of 1.301042607E-18 has been detected between      
+ contact element 57112 and target element 56404.                         
+  
+ Max.  Geometrical penetration of -1.734723476E-18 has been detected     
+ between contact element 57112 and target element 56404.                 
+ Contacting area 7.424507107E-06.                                        
+ Max.  Pinball distance 3.90625E-05.                                     
+ One of the contact searching regions contains at least 25 target        
+ elements.                                                               
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          13
+ Max.  Penetration of 0 has been detected between contact element 57945  
+ and target element 58838.                                               
+  
+ Max.  Geometrical gap of 8.67361738E-19 has been detected between       
+ contact element 57945 and target element 58838.                         
+  
+ Max.  Geometrical penetration of -4.33680869E-19 has been detected      
+ between contact element 57945 and target element 58838.                 
+ Contacting area 9.0625E-06.                                             
+ Max.  Pinball distance 3.672581897E-05.                                 
+ One of the contact searching regions contains at least 20 target        
+ elements.                                                               
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          14
+
+ *** NOTE ***                            CP =      10.703   TIME= 09:55:31
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          19
+ Max.  Penetration of 0 has been detected between contact element 62921  
+ and target element 63814.                                               
+  
+ Max.  Geometrical gap of 4.33680869E-19 has been detected between       
+ contact element 62930 and target element 63815.                         
+  
+ Max.  Geometrical penetration of -8.67361738E-19 has been detected      
+ between contact element 62930 and target element 63815.                 
+ Contacting area 9.0625E-06.                                             
+ Max.  Pinball distance 3.672581897E-05.                                 
+ One of the contact searching regions contains at least 20 target        
+ elements.                                                               
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          20
+
+ *** NOTE ***                            CP =      10.703   TIME= 09:55:31
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          23
+ Max.  Penetration of 0 has been detected between contact element 66367  
+ and target element 67217.                                               
+  
+ Max.  Geometrical gap of 8.67361738E-19 has been detected between       
+ contact element 66376 and target element 67213.                         
+  
+ Max.  Geometrical penetration of -8.67361738E-19 has been detected      
+ between contact element 66376 and target element 67213.                 
+ Contacting area 9.0625E-06.                                             
+ Max.  Pinball distance 3.654766876E-05.                                 
+ One of the contact searching regions contains at least 20 target        
+ elements.                                                               
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          24
+
+ *** NOTE ***                            CP =      10.703   TIME= 09:55:31
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          25
+
+ *** NOTE ***                            CP =      10.703   TIME= 09:55:31
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          26
+ Max.  Penetration of 0 has been detected between contact element 68523  
+ and target element 68056.                                               
+  
+ Max.  Geometrical gap of 8.67361738E-19 has been detected between       
+ contact element 68916 and target element 68065.                         
+  
+ Max.  Geometrical penetration of -4.33680869E-19 has been detected      
+ between contact element 68916 and target element 68065.                 
+ Contacting area 9.0625E-06.                                             
+ Max.  Pinball distance 3.660228813E-05.                                 
+ One of the contact searching regions contains at least 16 target        
+ elements.                                                               
+ *************************************************
+
+
+
+            **** CENTER OF MASS, MASS, AND MASS MOMENTS OF INERTIA ****
+
+  CALCULATIONS ASSUME ELEMENT MASS AT ELEMENT CENTROID
+
+  TOTAL MASS =  0.13904E-02
+
+                           MOM. OF INERTIA         MOM. OF INERTIA
+  CENTER OF MASS            ABOUT ORIGIN        ABOUT CENTER OF MASS
+
+  XC =  0.25000E-02      IXX =   0.8692E-08      IXX =   0.8689E-08
+  YC =  0.43910E-04      IYY =   0.1445E-07      IYY =   0.5755E-08
+  ZC = -0.64669E-08      IZZ =   0.1741E-07      IZZ =   0.8722E-08
+                         IXY =  -0.1526E-09      IXY =  -0.9005E-15
+                         IYZ =   0.2156E-13      IYZ =   0.2116E-13
+                         IZX =   0.2522E-13      IZX =   0.2740E-14
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.728530E-04
+     2  0.728530E-04
+     3  0.728530E-04
+     4  0.549500E-03
+     5  0.728530E-04
+     6  0.549500E-03
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 0.452614179 at element 60041.                                 
+ Minimum = 3.534221835E-08 at element 78750.                             
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2832  SOLID90       0.141   0.000050
+        2      2832  SOLID90       0.125   0.000044
+        3      2896  SOLID90       0.094   0.000032
+        4     20774  SOLID90       0.844   0.000041
+        5      2832  SOLID90       0.062   0.000022
+        6     20774  SOLID90       0.859   0.000041
+        7       708  CONTA174      0.078   0.000110
+        8       708  TARGE170      0.016   0.000022
+        9       890  CONTA174      0.031   0.000035
+       10       890  TARGE170      0.016   0.000018
+       11       708  CONTA174      0.062   0.000088
+       12       708  TARGE170      0.016   0.000022
+       13       882  CONTA174      0.062   0.000071
+       14       882  TARGE170      0.016   0.000018
+       15       716  CONTA174      0.062   0.000087
+       16       716  TARGE170      0.000   0.000000
+       17       890  CONTA174      0.047   0.000053
+       18       890  TARGE170      0.000   0.000000
+       19       882  CONTA174      0.031   0.000035
+       20       882  TARGE170      0.000   0.000000
+       21       841  CONTA174      0.047   0.000056
+       22       841  TARGE170      0.016   0.000019
+       23       833  CONTA174      0.094   0.000113
+       24       833  TARGE170      0.016   0.000019
+       25       841  CONTA174      0.078   0.000093
+       26       841  TARGE170      0.000   0.000000
+       27       833  CONTA174      0.109   0.000131
+       28       833  TARGE170      0.000   0.000000
+       29        96  SURF152       0.000   0.000000
+       30        96  SURF152       0.000   0.000000
+       31        96  SURF152       0.000   0.000000
+       32        96  SURF152       0.000   0.000000
+       33      8348  SURF152       0.141   0.000017
+ Time at end of element matrix formulation CP = 10.703125.               
+
+  ICCG FACTORIZATION PASS =     1  PSI=  0.0272
+
+  TOTAL NUMBER OF NON-ZERO TERMS IN IC MATRIX IS  4275049
+  TOTAL NUMBER OF FILL-IN TERMS REJECTED IS 11144385
+  THE TOLERANCE FOR REJECTIONS IS  0.27200E-01
+
+
+ IC CONJUGATE GRADIENT SOLUTION CONVERGED
+  NUMBER OF ITERATIONS=         253
+  NUMBER OF EQUATIONS =      238468
+  NUMBER OF TERMS     =     6793563
+  CALCULATED NORM     = 0.83549E-16
+  TARGET NORM         = 0.10352E-15
+  SPECIFIED TOLERANCE = 0.10175E-07
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2832  SOLID90       0.062   0.000022
+        2      2832  SOLID90       0.062   0.000022
+        3      2896  SOLID90       0.031   0.000011
+        4     20774  SOLID90       0.500   0.000024
+        5      2832  SOLID90       0.062   0.000022
+        6     20774  SOLID90       0.484   0.000023
+        7       708  CONTA174      0.031   0.000044
+        9       890  CONTA174      0.016   0.000018
+       11       708  CONTA174      0.031   0.000044
+       13       882  CONTA174      0.078   0.000089
+       15       716  CONTA174      0.016   0.000022
+       17       890  CONTA174      0.016   0.000018
+       19       882  CONTA174      0.031   0.000035
+       21       841  CONTA174      0.047   0.000056
+       23       833  CONTA174      0.016   0.000019
+       25       841  CONTA174      0.000   0.000000
+       27       833  CONTA174      0.031   0.000038
+       29        96  SURF152       0.000   0.000000
+       30        96  SURF152       0.000   0.000000
+       31        96  SURF152       0.000   0.000000
+       32        96  SURF152       0.000   0.000000
+       33      8348  SURF152       0.188   0.000022
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2832  SOLID90       0.031   0.000011
+        2      2832  SOLID90       0.000   0.000000
+        3      2896  SOLID90       0.016   0.000005
+        4     20774  SOLID90       0.094   0.000005
+        5      2832  SOLID90       0.000   0.000000
+        6     20774  SOLID90       0.031   0.000002
+        7       708  CONTA174      0.016   0.000022
+        9       890  CONTA174      0.016   0.000018
+       11       708  CONTA174      0.000   0.000000
+       13       882  CONTA174      0.000   0.000000
+       15       716  CONTA174      0.000   0.000000
+       17       890  CONTA174      0.000   0.000000
+       19       882  CONTA174      0.016   0.000018
+       21       841  CONTA174      0.000   0.000000
+       23       833  CONTA174      0.000   0.000000
+       25       841  CONTA174      0.000   0.000000
+       27       833  CONTA174      0.000   0.000000
+       29        96  SURF152       0.000   0.000000
+       30        96  SURF152       0.000   0.000000
+       31        96  SURF152       0.000   0.000000
+       32        96  SURF152       0.000   0.000000
+       33      8348  SURF152       0.000   0.000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =  0.500000E-01     TIME INC =  0.500000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  53.22       OSCILLATION LIMIT =  2.661    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.50000E-01  UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     2  COMPLETED.    CUM ITER =      2
+ *** TIME =  0.100000         TIME INC =  0.500000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  12.71       OSCILLATION LIMIT = 0.6353    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.50000E-01  UNCHANGED
+
+
+ *** NOTE ***                            CP =      44.172   TIME= 09:55:54
+ The initial memory allocation (-m) has been exceeded.                   
+  Supplemental memory allocations are being used.                        
+ *** LOAD STEP     1   SUBSTEP     3  COMPLETED.    CUM ITER =      3
+ *** TIME =  0.150000         TIME INC =  0.500000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  5.464       OSCILLATION LIMIT = 0.2732    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.91511E-01  INCREASED (FACTOR = 1.8302)
+
+ *** LOAD STEP     1   SUBSTEP     4  COMPLETED.    CUM ITER =      4
+ *** TIME =  0.241511         TIME INC =  0.915113E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  2.254       OSCILLATION LIMIT = 0.2063    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.20000      INCREASED (FACTOR = 2.1855)
+
+ *** LOAD STEP     1   SUBSTEP     5  COMPLETED.    CUM ITER =      5
+ *** TIME =  0.441511         TIME INC =  0.200000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.6703       OSCILLATION LIMIT = 0.1341    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.20000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     6  COMPLETED.    CUM ITER =      6
+ *** TIME =  0.641511         TIME INC =  0.200000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2146       OSCILLATION LIMIT = 0.4291E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.20000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     7  COMPLETED.    CUM ITER =      7
+ *** TIME =  0.841511         TIME INC =  0.200000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.7144E-01   OSCILLATION LIMIT = 0.1429E-01
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.15849      DECREASED (FACTOR = 0.7924)
+
+ *** LOAD STEP     1   SUBSTEP     8  COMPLETED.    CUM ITER =      8
+ *** TIME =   1.00000         TIME INC =  0.158489      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2906E-01   OSCILLATION LIMIT = 0.4606E-02
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+       33.812 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       94.125 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+      101.500 MB WRITTEN ON RESULTS FILE: file0.rth
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 2 OF 4 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        29 TO         29 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ DELETE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF CONV SURFACE LOADS DELETED=       0
+
+ DELETE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF HFLU SURFACE LOADS DELETED=      96
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        30 TO         30 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ ACCORDING TO TABLE PARAMETER = _LOADVARI96
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =         96
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO     238468 STEP          1
+
+     238468  NODES (OF     238468  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      79720 STEP          1
+
+      79720  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  2.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =     140.188   TIME= 09:56:58
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =     140.438   TIME= 09:56:58
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\file0.err ) for    
+ these warning messages.                                                 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   09:56:59  NOV 09, 2018 CP=    141.500
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     2
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  2.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E-05
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      FFLU        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     2   SUBSTEP     1  COMPLETED.    CUM ITER =      9
+ *** TIME =   1.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  206.5       OSCILLATION LIMIT =  2.065    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.33333E-02  DECREASED (FACTOR = 0.3333)
+
+ *** LOAD STEP     2   SUBSTEP     2  COMPLETED.    CUM ITER =     10
+ *** TIME =   1.01333         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  90.08       OSCILLATION LIMIT = 0.3003    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.33333E-02  UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     3  COMPLETED.    CUM ITER =     11
+ *** TIME =   1.01667         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  69.92       OSCILLATION LIMIT = 0.2331    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.71508E-02  INCREASED (FACTOR = 2.1452)
+
+ *** LOAD STEP     2   SUBSTEP     4  COMPLETED.    CUM ITER =     12
+ *** TIME =   1.02382         TIME INC =  0.715076E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  53.03       OSCILLATION LIMIT = 0.3792    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.94292E-02  INCREASED (FACTOR = 1.3186)
+
+ *** LOAD STEP     2   SUBSTEP     5  COMPLETED.    CUM ITER =     13
+ *** TIME =   1.03325         TIME INC =  0.942920E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  39.85       OSCILLATION LIMIT = 0.3757    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.12548E-01  INCREASED (FACTOR = 1.3308)
+
+ *** LOAD STEP     2   SUBSTEP     6  COMPLETED.    CUM ITER =     14
+ *** TIME =   1.04579         TIME INC =  0.125483E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  27.73       OSCILLATION LIMIT = 0.3479    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.18032E-01  INCREASED (FACTOR = 1.4370)
+
+ *** LOAD STEP     2   SUBSTEP     7  COMPLETED.    CUM ITER =     15
+ *** TIME =   1.06383         TIME INC =  0.180324E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  16.18       OSCILLATION LIMIT = 0.2917    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30912E-01  INCREASED (FACTOR = 1.7142)
+
+ *** LOAD STEP     2   SUBSTEP     8  COMPLETED.    CUM ITER =     16
+ *** TIME =   1.09474         TIME INC =  0.309117E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  6.707       OSCILLATION LIMIT = 0.2073    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.74549E-01  INCREASED (FACTOR = 2.4117)
+
+ *** LOAD STEP     2   SUBSTEP     9  COMPLETED.    CUM ITER =     17
+ *** TIME =   1.16929         TIME INC =  0.745492E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  1.522       OSCILLATION LIMIT = 0.1135    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.3414)
+
+ *** LOAD STEP     2   SUBSTEP    10  COMPLETED.    CUM ITER =     18
+ *** TIME =   1.26929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3489       OSCILLATION LIMIT = 0.3489E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    11  COMPLETED.    CUM ITER =     19
+ *** TIME =   1.36929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.9766E-01   OSCILLATION LIMIT = 0.9766E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    12  COMPLETED.    CUM ITER =     20
+ *** TIME =   1.46929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2992E-01   OSCILLATION LIMIT = 0.2992E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    13  COMPLETED.    CUM ITER =     21
+ *** TIME =   1.56929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.9706E-02   OSCILLATION LIMIT = 0.9706E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    14  COMPLETED.    CUM ITER =     22
+ *** TIME =   1.66929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3315E-02   OSCILLATION LIMIT = 0.3315E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    15  COMPLETED.    CUM ITER =     23
+ *** TIME =   1.76929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1195E-02   OSCILLATION LIMIT = 0.1195E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    16  COMPLETED.    CUM ITER =     24
+ *** TIME =   1.86929         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.4584E-03   OSCILLATION LIMIT = 0.4584E-04
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.65356E-01  DECREASED (FACTOR = 0.6536)
+
+ *** LOAD STEP     2   SUBSTEP    17  COMPLETED.    CUM ITER =     25
+ *** TIME =   1.93464         TIME INC =  0.653559E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2432E-03   OSCILLATION LIMIT = 0.1589E-04
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.65356E-01  UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    18  COMPLETED.    CUM ITER =     26
+ *** TIME =   2.00000         TIME INC =  0.653559E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1344E-03   OSCILLATION LIMIT = 0.8785E-05
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 2 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 3 OF 4 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        30 TO         30 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ DELETE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF CONV SURFACE LOADS DELETED=       0
+
+ DELETE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF HFLU SURFACE LOADS DELETED=      96
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        31 TO         31 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ ACCORDING TO TABLE PARAMETER = _LOADVARI98
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =         96
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO     238468 STEP          1
+
+     238468  NODES (OF     238468  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      79720 STEP          1
+
+      79720  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  3.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =     336.531   TIME= 09:59:24
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =     336.781   TIME= 09:59:24
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\file0.err ) for    
+ these warning messages.                                                 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   09:59:25  NOV 09, 2018 CP=    337.906
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     3
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  3.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E-05
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      FFLU        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     3   SUBSTEP     1  COMPLETED.    CUM ITER =     27
+ *** TIME =   2.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  236.1       OSCILLATION LIMIT =  2.361    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.33333E-02  DECREASED (FACTOR = 0.3333)
+
+ *** LOAD STEP     3   SUBSTEP     2  COMPLETED.    CUM ITER =     28
+ *** TIME =   2.01333         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  102.2       OSCILLATION LIMIT = 0.3408    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.33333E-02  UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     3  COMPLETED.    CUM ITER =     29
+ *** TIME =   2.01667         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  76.48       OSCILLATION LIMIT = 0.2549    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.65372E-02  INCREASED (FACTOR = 1.9612)
+
+ *** LOAD STEP     3   SUBSTEP     4  COMPLETED.    CUM ITER =     30
+ *** TIME =   2.02320         TIME INC =  0.653725E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  53.34       OSCILLATION LIMIT = 0.3487    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.93732E-02  INCREASED (FACTOR = 1.4338)
+
+ *** LOAD STEP     3   SUBSTEP     5  COMPLETED.    CUM ITER =     31
+ *** TIME =   2.03258         TIME INC =  0.937317E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  34.31       OSCILLATION LIMIT = 0.3216    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.14573E-01  INCREASED (FACTOR = 1.5548)
+
+ *** LOAD STEP     3   SUBSTEP     6  COMPLETED.    CUM ITER =     32
+ *** TIME =   2.04715         TIME INC =  0.145730E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  19.48       OSCILLATION LIMIT = 0.2839    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.25665E-01  INCREASED (FACTOR = 1.7611)
+
+ *** LOAD STEP     3   SUBSTEP     7  COMPLETED.    CUM ITER =     33
+ *** TIME =   2.07281         TIME INC =  0.256645E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  9.726       OSCILLATION LIMIT = 0.2496    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.51409E-01  INCREASED (FACTOR = 2.0031)
+
+ *** LOAD STEP     3   SUBSTEP     8  COMPLETED.    CUM ITER =     34
+ *** TIME =   2.12422         TIME INC =  0.514085E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  4.071       OSCILLATION LIMIT = 0.2093    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.9452)
+
+ *** LOAD STEP     3   SUBSTEP     9  COMPLETED.    CUM ITER =     35
+ *** TIME =   2.22422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  1.180       OSCILLATION LIMIT = 0.1180    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    10  COMPLETED.    CUM ITER =     36
+ *** TIME =   2.32422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3457       OSCILLATION LIMIT = 0.3457E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    11  COMPLETED.    CUM ITER =     37
+ *** TIME =   2.42422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1038       OSCILLATION LIMIT = 0.1038E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    12  COMPLETED.    CUM ITER =     38
+ *** TIME =   2.52422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3210E-01   OSCILLATION LIMIT = 0.3210E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    13  COMPLETED.    CUM ITER =     39
+ *** TIME =   2.62422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1019E-01   OSCILLATION LIMIT = 0.1019E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    14  COMPLETED.    CUM ITER =     40
+ *** TIME =   2.72422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3310E-02   OSCILLATION LIMIT = 0.3310E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    15  COMPLETED.    CUM ITER =     41
+ *** TIME =   2.82422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1095E-02   OSCILLATION LIMIT = 0.1095E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    16  COMPLETED.    CUM ITER =     42
+ *** TIME =   2.92422         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3686E-03   OSCILLATION LIMIT = 0.3686E-04
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.75777E-01  DECREASED (FACTOR = 0.7578)
+
+ *** LOAD STEP     3   SUBSTEP    17  COMPLETED.    CUM ITER =     43
+ *** TIME =   3.00000         TIME INC =  0.757768E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1559E-03   OSCILLATION LIMIT = 0.1181E-04
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 3 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 4 OF 4 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        31 TO         31 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ DELETE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF CONV SURFACE LOADS DELETED=       0
+
+ DELETE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+
+ NUMBER OF HFLU SURFACE LOADS DELETED=      96
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        32 TO         32 STEP          1
+
+         96  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+      329 NODES (OF   238468  DEFINED) SELECTED FROM
+       96 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ ACCORDING TO TABLE PARAMETER = _LOADVARI100
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =         96
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO     238468 STEP          1
+
+     238468  NODES (OF     238468  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      79720 STEP          1
+
+      79720  ELEMENTS (OF      79720  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  4.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =     544.469   TIME= 10:01:48
+ Material number 29 (used by element 70989 ) should normally have at     
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =     544.688   TIME= 10:01:48
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9\file0.err ) for    
+ these warning messages.                                                 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   10:01:49  NOV 09, 2018 CP=    545.828
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     4
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  4.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E-05
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      FFLU        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     4   SUBSTEP     1  COMPLETED.    CUM ITER =     44
+ *** TIME =   3.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  206.5       OSCILLATION LIMIT =  2.065    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.33333E-02  DECREASED (FACTOR = 0.3333)
+
+ *** LOAD STEP     4   SUBSTEP     2  COMPLETED.    CUM ITER =     45
+ *** TIME =   3.01333         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  90.10       OSCILLATION LIMIT = 0.3003    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.33333E-02  UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     3  COMPLETED.    CUM ITER =     46
+ *** TIME =   3.01667         TIME INC =  0.333333E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  69.96       OSCILLATION LIMIT = 0.2332    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.71474E-02  INCREASED (FACTOR = 2.1442)
+
+ *** LOAD STEP     4   SUBSTEP     4  COMPLETED.    CUM ITER =     47
+ *** TIME =   3.02381         TIME INC =  0.714744E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  53.09       OSCILLATION LIMIT = 0.3794    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.94185E-02  INCREASED (FACTOR = 1.3177)
+
+ *** LOAD STEP     4   SUBSTEP     5  COMPLETED.    CUM ITER =     48
+ *** TIME =   3.03323         TIME INC =  0.941846E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  39.95       OSCILLATION LIMIT = 0.3763    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.12514E-01  INCREASED (FACTOR = 1.3287)
+
+ *** LOAD STEP     4   SUBSTEP     6  COMPLETED.    CUM ITER =     49
+ *** TIME =   3.04575         TIME INC =  0.125141E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  27.91       OSCILLATION LIMIT = 0.3492    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.17916E-01  INCREASED (FACTOR = 1.4317)
+
+ *** LOAD STEP     4   SUBSTEP     7  COMPLETED.    CUM ITER =     50
+ *** TIME =   3.06366         TIME INC =  0.179162E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  16.42       OSCILLATION LIMIT = 0.2942    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30446E-01  INCREASED (FACTOR = 1.6994)
+
+ *** LOAD STEP     4   SUBSTEP     8  COMPLETED.    CUM ITER =     51
+ *** TIME =   3.09411         TIME INC =  0.304459E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  6.946       OSCILLATION LIMIT = 0.2115    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.71985E-01  INCREASED (FACTOR = 2.3644)
+
+ *** LOAD STEP     4   SUBSTEP     9  COMPLETED.    CUM ITER =     52
+ *** TIME =   3.16609         TIME INC =  0.719847E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  1.645       OSCILLATION LIMIT = 0.1184    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.3892)
+
+ *** LOAD STEP     4   SUBSTEP    10  COMPLETED.    CUM ITER =     53
+ *** TIME =   3.26609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3761       OSCILLATION LIMIT = 0.3761E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    11  COMPLETED.    CUM ITER =     54
+ *** TIME =   3.36609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1041       OSCILLATION LIMIT = 0.1041E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    12  COMPLETED.    CUM ITER =     55
+ *** TIME =   3.46609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3118E-01   OSCILLATION LIMIT = 0.3118E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    13  COMPLETED.    CUM ITER =     56
+ *** TIME =   3.56609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.9736E-02   OSCILLATION LIMIT = 0.9736E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    14  COMPLETED.    CUM ITER =     57
+ *** TIME =   3.66609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3126E-02   OSCILLATION LIMIT = 0.3126E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    15  COMPLETED.    CUM ITER =     58
+ *** TIME =   3.76609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1026E-02   OSCILLATION LIMIT = 0.1026E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    16  COMPLETED.    CUM ITER =     59
+ *** TIME =   3.86609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3431E-03   OSCILLATION LIMIT = 0.3431E-04
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    17  COMPLETED.    CUM ITER =     60
+ *** TIME =   3.96609         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1173E-03   OSCILLATION LIMIT = 0.1173E-04
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.33907E-01  DECREASED (FACTOR = 0.3391)
+
+ *** LOAD STEP     4   SUBSTEP    18  COMPLETED.    CUM ITER =     61
+ *** TIME =   4.00000         TIME INC =  0.339066E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.7684E-04   OSCILLATION LIMIT = 0.2605E-05
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 4 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  10.0736111    
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =       770.109
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 18.1     18.1     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   10:05:33  NOV 09, 2018 CP=    770.125
+
+ Sim--Transient Thermal (A5)                                                   
+
+
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =     770.141   TIME= 10:05:33
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =       770.359
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  10.0925000    
+
+ PARAMETER _PREPTIME =     1.000000000    
+
+ PARAMETER _SOLVTIME =     541.0000000    
+
+ PARAMETER _POSTTIME =     68.00000000    
+
+ PARAMETER _TOTALTIM =     610.0000000    
+
+ EXIT ANSYS WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          7
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
+ *** WARNING ***                         CP =     770.500   TIME= 10:05:33
+ During this session the elapsed time exceeds the CPU time by 33%.       
+ Often this indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or it indicates a particularly    
+ slow hard drive configuration.  This simulation can be expected to run  
+ faster on identical hardware if additional RAM or a faster hard drive   
+ configuration is made available.  For more details, please see the      
+ ANSYS Performance Guide which is part of the ANSYS Help system.         
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: Release 18.1       Build: 18.1       Update: UP20170403   Platform: WINDOWS x64 
+Date Run: 11/09/2018   Time: 10:05     Process ID: 12828
+Operating System: Windows 10  (Build: 17134)
+
+Processor Model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 15.0.7  (Build: 20160518)
+          Intel(R) C/C++ Compiler Version 15.0.7  (Build: 20160518)
+          Intel(R) Math Kernel Library Version 11.3.3 Product Build 20160413
+
+Number of machines requested            :    1
+Total number of cores available         :    4
+Number of physical cores available      :    2
+Number of processes requested           :    2
+Number of threads per process requested :    1
+Total number of cores requested         :    2 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 5.1.3 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+  ----------------------------------------------------
+     0             DESKTOP-NL87DU7   C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9
+     1             DESKTOP-NL87DU7   C:\Users\2saks\Desktop\Manoj\_ProjectScratch\Scr3ED9
+ 
+Latency time from master to core    1 =    1.930 microseconds
+ 
+Communication speed from master to core    1 =  2390.76 MB/sec
+
+Total CPU time for main thread                    :      461.7 seconds
+Total CPU time summed for all threads             :      770.5 seconds
+
+Elapsed time spent pre-processing model (/PREP7)  :        1.5 seconds
+Elapsed time spent solution - preprocessing       :        6.0 seconds
+Elapsed time spent computing solution             :      533.5 seconds
+Elapsed time spent solution - postprocessing      :       67.0 seconds
+Elapsed time spent post-processing model (/POST1) :        0.4 seconds
+ 
+Equation solver used                              :            ICCG (symmetric)
+
+Maximum total memory used                         :     2983.0 MB
+Maximum total memory allocated                    :     5184.0 MB
+Total physical memory available                   :          8 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys Release 18.1          Build 18.1         UP20170403     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used     160 MB    Maximum Scratch Memory Used    911 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =        770.469       Time  =  10:05:33        |
+ |        Elapsed Time (sec) =        612.000       Date  =  11/09/2018      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

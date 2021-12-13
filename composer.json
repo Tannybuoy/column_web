@@ -1,0 +1,7 @@
+{
+  "name": "tanya/website",
+  "description": "Composer for Tanya's website",
+    "require": {
+      "php": "^8.0.0"
+    }
+}

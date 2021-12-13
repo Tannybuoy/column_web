@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html>
+</html>
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>Creative - Bootstrap Portfolio Theme by Bootstrapious.com</title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="robots" content="all,follow">
+          <!-- Bootstrap CSS-->
+          <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+          <!-- Font Awesome CSS-->
+          <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+          <!-- Google fonts - Roboto-->
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+          <!-- owl carousel-->
+          <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+          <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+          <!-- theme stylesheet-->
+          <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+          <!-- Custom stylesheet - for your changes-->
+          <link rel="stylesheet" href="css/custom.css">
+          <!-- Favicon-->
+          <link rel="shortcut icon" href="img/favicon.png">
+          <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+  <div id="all">
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left"> 
+        <!--   *** SIDEBAR ***-->
+        <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
+          <div class="sidebar-content">
+            <h1 class="sidebar-heading"> <a href="index.html">Creative</a></h1>
+            <p class="sidebar-p">I am a creative illustrator and graphic designer with more than 10 years of experience. </p>
+            <p class="sidebar-p">Originally from Toronto, currently based in London. </p>
+            <ul class="sidebar-menu" >
+                <!-- Link-->
+                <li class="sidebar-item"><a href="creative_index.html" class="sidebar-link active">Home</a></li>
+                <!-- Link-->
+                <li class="sidebar-item"><a href="creative_about.html" class="sidebar-link">About</a></li>
+                <!-- Link-->
+                <li class="sidebar-item"><a href="creative_contact.html" class="sidebar-link">Get in touch</a></li>
+            </ul>
+            <p class="social"><a href="#" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a><a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="external instagram"><i class="fa fa-instagram"></i></a><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a></p>
+            <div class="copyright text-center text-md-left">
+              <p class="credit">&copy;2018 Your name or company | Template by <a href="http://bootstrapious.com/portfolio-themes" class="external">Bootstrapious.com</a></p>
+              <!-- Please do not remove the backlink to us, unless you support the development at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
+            </div>
+          </div>
+        </div>
+        <!--   *** SIDEBAR END ***  -->
+        <!--   *** DETAIL ***-->
+        <div class="col-md-8 col-lg-9 content-column white-background">
+          <div class="small-navbar d-flex d-md-none">
+            <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary"> <i class="fa fa-align-left mr-2"></i>Menu</button>
+            <h1 class="small-navbar-heading"> <a href="index.html">Creative </a></h1>
+          </div>
+          <div class="row"> 
+            <div class="col-xl-10">
+                <div class="content-column-content">
+                    <h1>Music Synchronised Stage Lights</h1>
+                    <p class="lead">
+                        As part of my Computer Graphics and Product Modelling course project, I got the opportunity to work on a project on designing a stage in Unreal Engine to automate light control based on sound.
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/Stage.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <!-- /#main-slider-->
+                    <br />
+                    <br />
+                    <h2>Problem Statement</h2>
+                    <p>
+                        Current scenario is that there is a person who controls the lights, its movement and its intensity in association with the music. We would like to remove this human part and automate the process. This will help reduce costs and remove errors.
+
+
+                    </p>
+                    <p>
+                        I started with familiarizing with the software Unreal Engine and implemented a basic stage light control using time delay
+
+                    </p>
+                    <h2>Stage Modelling</h2>
+                    <h4>Stage components</h4>
+                    <p>
+                        Existing foldable helmets in the market are geared towards cyclists not bikers. Additionally, they are too expensive to be affordable to the common man. Our aim was thus to design an affordable helmet with capabilities of volume and weight reduction.
+                    </p>
+                    <ol>
+                        <li>
+                            Floor for audience
+                        </li>
+                        <li>
+
+                            A raised stage for singer and
+                        </li>
+
+                        <li>
+                            3*3 spotlight grid whose intensity changes in real time as per characteristics of music.
+                        </li>
+                        <li>
+                            A singer was imported from existing templates
+                        </li>
+                        <li>
+                            Three overhead ceiling bars to support spotlights
+                        </li>
+                        <li>
+                            Static illumination lights around the platform and on ceiling for environment illumination
+                            Two entry staircases
+                        </li>
+                    </ol>
+                    <h4> Important Stage features</h4>
+
+                    <ol>
+                        <li>
+                            Unreal Engine allows us to use different lights according to our needs and control its position and settings accordingly. It provides for 3 types of lights. From left to right they are: Point Light, Spot Light, and Directional Light
+                        </li>
+                        <img src="img/portfolio/Music Synced Stage Lights/pic4.jpg" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+
+                        <li>
+                            <b>LightMass Importance Volume</b> - To reduce graphics rendering load on GPU
+                        </li>
+                        <li>
+                            <b>Intensity</b> determines how much energy the light outputs into the scene.
+                        </li>
+                        <li>
+                            <b>Light Color</b> will adjust the color of the light and the sprite that represents the light in the editor will change its color to match.
+                        </li>
+                        <li>
+                            <b>Attenuation Radius</b> of the light sets the reach of the light and defines what objects it will affect
+                        </li>
+                        <li>
+                            <b>Source Radius</b> and <b>Source Length</b> define the size of specular highlights on surfaces.
+                        <li>
+                            <b>Static lights</b> are those whose intensity remains constant throughout the simulation
+                        </li>
+                        <li>
+                            <b>Outer cone angle</b> and <b>Inner cone angle</b> of spotlights for directing light as required
+                        </li>
+                    </ol>
+
+                    <h4>Spotlight Animation Design</h4>
+                    <p>
+                        Blueprint allows for visual scripting of simulation events.
+                        Image represents blueprint for a blinking spotlight.
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/pic5.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <br />
+                    <br />
+
+                    <p>
+                        At each instant, Event Tick module asks Set Intensity module to set intensity of spotlight based on inputs to New Intensity value. Get Game Time in Seconds sends game time as input to a multiplier module. The output is then fed to sin function and then to another multiplier. Sin function enables fluctuating nature of light and multipliers alters frequency of fluctuations and boost intensity of light. To achieve their intensity control based on song, following scripting was done
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/pic6.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <br />
+                    <br />
+
+                    <p>
+                        The SET command stores the calculated FFT spectrum data in an 2d array. We then send this data to intensity of different spotlights in real time. The scripting shown below is in continuation with above image.
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/pic7.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <br />
+                    <br />
+
+                    <p>
+                        The Outer cone angle and Inner cone angle of spotlights is also controlled with below scripting using spotlight properties. Below shown image is continuation of above image.
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/pic8.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <br />
+                    <br />
+
+                    <p>
+                        The white line running through most of modules shows the functions which run during each Event Tick. We call them primary functions. Event Tick can be understood as series of pulsating input which asks other function to execute their task periodically. Other functions attached to these primary functions are called secondary function and gets called as per requirement of primary functions
+                    </p>
+                    <h2>Audio Analysis/Interpretation</h2>
+                    <p>
+                        A teammate worked on this part of the project, using Mel Spectrograms to generate visual respresentation of frequencies in a Signal. The analysis of audio was performed in MATLAB and then, due to limited functionalities of MATLAB and open-source nature of Python, using the Librosa library of Python. The audio analysis was done using the various functionalities of Librosa and established techniques of sound/audio processing.
+                    </p>
+                    <p>A chromagram represents what pitch classes belong in a sound and its various components. A pitch class is the set of all pitches which are a whole number of octaves apart. A chromagram is a 3-D graph showing the power/intensity of each pitch class at a time instant in the audio sample. </p>
+                    <div id="main-slider" class="owl-carousel owl-theme">
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic9.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The spectrogram plot for a 35 second sample audio file is generated</figcaption></figure>
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic10.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The spectrogram plot for Nirvana’s 1992 song “Come As You Are” is shown</figcaption></figure>
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic11.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The spectrograms for harmonic and percussions (for the 35 sec sample audio)</figcaption></figure>
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic12.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The spectrogram with beats shown (transparent vertical lines) is generated</figcaption></figure>
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic13.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The chromogram for the sample audio</figcaption></figure>
+                        <figure class="item" align="center"><img src="img/portfolio/Music Synced Stage Lights/pic14.png" style="width:100%; height: 10 0%; margin:0 auto;" alt="" class="img-fluid"><figcaption>The chromogram generated for Nirvana’s 1992 song “Come As You Are”</figcaption></figure>
+
+                    </div>
+                    <h2>Spotlight Control</h2>
+                    <h4>Randomize colors</h4>
+                    <p>
+                        To randomize the colours, an algorithm similar to “pixel colouring” algorithm (RGB grey-level frame buffer in CRT display) is used to decide the colour of each spotlight. Algorithm trigger flow chart & Algorithm are explained below. Sound pattern change trigger acts, when sound pattern has drastic change in beat frequency, or pitch of sound.
+                    </p>
+                    <img src="img/portfolio/Music Synced Stage Lights/pic15.png" width="600" height="280" style="margin:0 auto;" alt="" class="img-fluid"></a>
+                    <br />
+                    <br />
+                    <h4>Controlling Flickering Frequency</h4>
+                    <p>
+                        Beat frequency is obtained from beat tracking code.
+                        The same frequency is assigned to overall ON / OFF state of spotlight, thus controlling flickering of spotlight.
+                        Note that the beat frequencies change every few milliseconds, and thus giving dynamism to the spotlight flicker.
+                        Spotlight colours do not change in this flicker rate control loop
+                    </p>
+                    <h4>Controlling Flicker Intensity</h4>
+                    <p>
+                        Beat flicker intensity can be understood as amplitude of intensity of lights based on amplitude of beats. For very high beat amplitude, spotlight tends to be very bright, whereas for low amplitude beats, the colour of spotlight is seen dull.
+                        Mathematically, this can be expressed as scaling the individual intensity values of RGB by an amplitude factor A with every time step
+                    </p>
+                    <h4>Fade In / Fade Out Control</h4>
+                    <p>
+                        For mid-range frequencies, or high frequencies, generally beats do not exist. In such cases, we slowly fade in OR fade out selected spotlights (some spotlights fade in, some fade out, some stay with same intensity – generally the central light)
+                        The rate of fade in is taken to be same as rate of fade out, which is taken as rate of pitch variation in the sound with each time step.
+
+                    </p>
+
+                    <h2>Future Scope</h2>
+                    <p>
+                        The next iterations of this prototype would require
+                        many changes to be usable and effective. Some of
+                        these include
+                    </p>
+                    <ul>
+                        <li>
+                            <b>POST-PROCESSING:</b> Strobes, black out, bright white flashes, hue shifts to make lights match the music
+                        </li>
+                        <li>
+                            <b>
+                                CONNECTING:
+                            </b> Automatic connection of the spotlight control code with audio analysis code
+
+                        </li>
+
+                        <li>
+                            <b>
+                                MACHINE LEARNING:
+                            </b> Genre identification in music can be effectively implemented using Neural Networks
+
+                        </li>
+
+                        <li>
+                            <b>
+                                REAL-TIME INPUT:
+                            </b> Currently, we are limited to music files already stored in system
+
+                        </li>
+                        <li>
+                            <b>
+                                INCLUDE CONTROLS:
+                            </b> Control of the rotation and solid angle of the spotlight cone, lasers & artificial fog
+
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper.js/umd/popper.min.js"> </script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+  <script src="js/front.js"></script>
+</body>
